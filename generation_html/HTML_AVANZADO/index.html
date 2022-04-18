@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      table,
+      tr,
+      td,
+      th {
+        border: 1px solid black;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+    <nav>
+      <ul>
+        <li>
+          <a href="#Tablas">Tablas</a>
+        </li>
+      </ul>
+    </nav>
+
+    <h2 id="Tablas">Tablas</h2>
+    <table>
+      <!-- Cabecera de la página -->
+      <thead>
+        <!-- Creamos filas -->
+        <tr>
+          <th>Cabecera</th>
+          <th>Cabecera</th>
+          <th>Cabecera</th>
+        </tr>
+      </thead>
+      <!-- Cuerpo de la tabla Table Row Table Data-->
+      <tbody>
+        <tr>
+          <td>A</td>
+          <td>B</td>
+          <td>C</td>
+        </tr>
+        <tr>
+          <td>D</td>
+          <td>E</td>
+          <td>F</td>
+        </tr>
+        <tr>
+          <td>G</td>
+          <td colspan="2">H</td>
+        </tr>
+        <tr>
+          <td colspan="2">I</td>
+          <td rowspan="2">J</td>
+        </tr>
+      </tbody>
+      <!-- Pie de la tabla -->
+      <tfoot>
+        <!-- se suele utilizar para sumas o cuestiones
+     que refieran a un final -->
+        <tr>
+          <td>Total</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <hr>
+
+    <table>
+      <thead>
+        <tr>
+          <th colspan="4">Recordando los viejos momentos</th>
+        </tr>
+        <tr>
+          <th>Día</th>
+          <th>Año</th>
+          <th>Recuerdo</th>
+          <th>Ref</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>29</td>
+          <td>1997</td>
+          <td>Exist</td>
+          <td>unlink</td>
+        </tr>
+        <tr>
+          <td>29</td>
+          <td>1997</td>
+          <td>Exist</td>
+          <td>unlink</td>
+        </tr>
+        <tr>
+          <td>29</td>
+          <td>1997</td>
+          <td>Exist</td>
+          <td>unlink</td>
+        </tr>
+        <tr>
+          <td>29</td>
+          <td>1997</td>
+          <td>Exist</td>
+          <td>unlink</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr>
+
+    <h3>Tabla con celdas extendidas</h3>
+    <table>
+      <tbody>
+        <tr>
+          <td colspan="3">alfa</td>
+          <td>bravo</td>
+          <td rowspan="2">charlie</td>
+        </tr>
+        <tr>
+          <td>delta</td>
+          <td>echo</td>
+          <td>foxtrot</td>
+          <td>golf</td>
+        </tr>
+        <tr>
+          <td>hotel</td>
+          <td rowspan="2" colspan="3">india</td>
+          <td>juliet</td>
+        </tr>
+        <tr>
+          <td>kilo</td>
+          <td>lima</td>
+        </tr>
+        <tr>
+          <td>mike</td>
+          <td>november</td>
+          <td>oscar</td>
+          <td>papa</td>
+          <td>quebec</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
