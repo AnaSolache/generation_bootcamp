@@ -1,0 +1,71 @@
+/* Selector universal <*>
+*{
+    background-color: purple;
+}*/
+
+/* :root{
+
+}
+
+html{
+
+Son selectores universales que se le asignan a todos los elementos
+más importantes que el universal, ya que este es el de menos jerarquía
+} */
+
+/* Selector de etiqueta
+elemento HTML
+ */
+
+ 
+ .cuadro{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    border:1px solid black;
+    border-radius: 10%;
+}
+
+
+ #forma{
+    width: 100px;
+    height: 100px;
+    border:1px solid black;
+    border-radius: 10%;
+ }
+
+ #div3{
+     background-color: black;
+ }
+
+ /*!Important tiene la mayor jerarquía */
+
+ .color{
+     background-color: aquamarine;
+ }
+ .color{
+    background-color: blue;
+}
+.color{
+    background-color: blueviolet;
+}
+.color-texto{
+    color:chartreuse;
+    background-color: blueviolet;
+}
+.forma{
+    height: auto;
+    width: auto;
+    text-align: center;
+    line-height: 100px;
+}
+.borde{
+    /* border: 3px solid black; */
+    border-top: 3px solid blue;
+    border-bottom: 3px solid purple;
+    border-left: 6px solid aqua;
+    border-right: 6px solid yellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:100px;
+    font-weight: 100px;
+}

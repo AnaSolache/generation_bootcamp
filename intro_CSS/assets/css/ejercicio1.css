@@ -1,0 +1,28 @@
+.int1{
+background-color: rgb(238, 130, 238);
+}
+
+.int2{
+ background-color: rgb(255, 129, 62);   
+ border:1px solid black;
+border-radius: 5%;
+}
+
+.int3{
+ background-color: rgb(229, 225, 225);   
+ border-left: 6px solid rgb(238, 130, 238)
+}
+
+.int4{
+ background-color: rgb(229, 225, 225); 
+}
+
+.letra{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.general{
+    height:30px;
+width: 500px;
+line-height: 30px;
+}
