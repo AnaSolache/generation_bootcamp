@@ -1,0 +1,24 @@
+.formulario{
+    border: 5px solid purple;
+    padding: 10px;
+    background-color:rgb(230, 153, 230);
+    border-radius: 10px;
+}
+
+.colorfondo{
+    background-color: rgb(189, 138, 236);
+    border: none;
+    border-radius: 5px;
+}
+.btn-enviar{
+    background-color: blueviolet;
+    border: none;
+    color:white;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.acomodar{
+    display: block;
+    display: inline-block;
+    width: 100px;
+}

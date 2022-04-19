@@ -16,8 +16,10 @@ más importantes que el universal, ya que este es el de menos jerarquía
 /* Selector de etiqueta
 elemento HTML
  */
+h1{
+    text-align: center;
+}
 
- 
  .cuadro{
     width: 100px;
     height: 100px;

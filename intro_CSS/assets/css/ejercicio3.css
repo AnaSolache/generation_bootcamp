@@ -1,0 +1,23 @@
+
+body{
+    background-color: rgba(199, 216, 249, 0.583);
+}
+h1{
+    font-size: 35px;
+    text-align: end;
+    font-family: cursive; 
+}
+h2{
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+p{
+    text-align: justify;
+}
