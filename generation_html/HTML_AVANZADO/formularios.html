@@ -1,89 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/formularios.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/formularios.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- <forms action="" method="post"></forms> -->
-<!-- required -->
-    <form >
-        <input type="text" placeholder="Nombre" maxlength="10" minlength="6">
-        <input type="text" placeholder="Apellido" size="20">
-       <input type="number" min="10" max="100" step="10">
-       <input type="date">
-       <input type="month">
-       <input type="week">
-       <input type="datetime-local">
-       <input type="time">
-       <input type="password">
-       <input type="file">
-       <input type="range"min="1"max="4">
-       <input type="checkbox" value="hola">
-       <input type="radio" name="n1" value="1">
-       <input type="radio" name="n2" value="2">
-       <input type="email">
+    <!-- required -->
+    <form>
+      <input type="text" placeholder="Nombre" maxlength="10" minlength="6" />
+      <input type="text" placeholder="Apellido" size="20" />
+      <input type="number" min="10" max="100" step="10" />
+      <input type="date" />
+      <input type="month" />
+      <input type="week" />
+      <input type="datetime-local" />
+      <input type="time" />
+      <input type="password" />
+      <input type="file" />
+      <input type="range" min="1" max="4" />
+      <input type="checkbox" value="hola" />
+      <input type="radio" name="n1" value="1" />
+      <input type="radio" name="n2" value="2" />
+      <input type="email" />
 
-        <select name="menu" menu="2">
+      <select name="menu" menu="2">
         <option>Uno</option>
         <option value="2">Dos</option>
         <option value="3">Tres</option>
-        </select>
+      </select>
 
-        <textarea name="" id="" cols="10" rows="5"></textarea>
-        <input type="color" id="inputColor" value="#ff0000">
-       <input type="submit" value="Mandar">
-       <input type="reset"value="limpiar">
+      <textarea name="" id="" cols="10" rows="5"></textarea>
+      <input type="color" id="inputColor" value="#ff0000" />
+      <input type="submit" value="Mandar" />
+      <input type="reset" value="limpiar" />
     </form>
 
-    <script>
-        const color = document.querySelector("#inputColor")
-        console.log(color)
+    <hr />
 
-        color.addEventListener("change", function (e) {
-            document.body.style.backgroundColor = e.target.value;
-        })
-    </script>
+    <h1>Formulario</h1>
 
-<hr>
+    <form class="formulario" id="formularioDatos">
+      <div class="nombre">
+        <label class="acomodar" for="nombre">Nombre</label>
+        <input
+          class="colorfondo"
+          type="text"
+          name="name"
+          id="nombre"
+          required
+          placeholder="Nombre"
+        />
+      </div>
+      <br />
 
-<h1>Formulario</h1>
-<form class="formulario">
+      <div class="apellido">
+        <label class="acomodar" for="apellido">Apellido</label>
+        <input
+          class="colorfondo"
+          type="text"
+          id="apellido"
+          placeholder="Apellido"
+          name="apellido"
+        />
+      </div>
+      <br />
 
-        <div class="nombre">
-            <label class="acomodar" for="nombre">Nombre</label>
-            <input class="colorfondo" type="text" name="name" id="nombre" required placeholder="Nombre">
-        </div>
-        <br>
+      <div class="password">
+        <label class="acomodar" for="password">Contraseña</label>
+        <input
+          class="colorfondo"
+          type="password"
+          id="password"
+          required
+          placeholder="Contraseña"
+          name="password"
+        />
+      </div>
+      <br />
 
-        <div class="apellido">
-            <label class="acomodar" for="apellido">Apellido</label>
-            <input class="colorfondo" type="text" id="apellido" placeholder="Apellido">
-        </div>
-        <br>
+      <div class="email">
+        <label class="acomodar" for="email">Correo</label>
+        <input
+          class="colorfondo"
+          type="email"
+          id="email"
+          placeholder="Correo"
+          name="email"
+        />
+      </div>
+      <br />
 
-        <div class="password">
-            <label class="acomodar" for="password">Contraseña</label>
-            <input class="colorfondo" type="password" id="password" required placeholder="Contraseña"> 
-        </div>
-        <br>
+      <div class="enviar">
+        <input class="acomodar" class="btn-enviar" type="submit" id="submit" />
+        <!--  <button type="submit"><img scr="https://descubrecomohacerlo.com/wp-content/uploads/mch/simbolo-verificacion-fondo-negro_5497.png"></button>
+         -->
+      </div>
+    </form>
 
-        <div class="email">
-            <label class="acomodar" for="email">Correo</label>
-            <input class="colorfondo" type="email" id="email" placeholder="Correo">
-        </div>
-        <br>
-
-        <div class="enviar">
-            <input class="acomodar" class="btn-enviar" type="submit" id="submit">
-           <!--  <button type="submit"><img scr="https://descubrecomohacerlo.com/wp-content/uploads/mch/simbolo-verificacion-fondo-negro_5497.png"></button>
-         --></div>
-
-</form>
-
-
-</body>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

@@ -3,6 +3,10 @@
     padding: 10px;
     background-color:rgb(230, 153, 230);
     border-radius: 10px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
 }
 
 .colorfondo{
@@ -21,4 +25,8 @@
     display: block;
     display: inline-block;
     width: 100px;
+}
+
+h1{
+    text-align: center;
 }
