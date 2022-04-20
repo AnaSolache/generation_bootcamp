@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+
+}
+
+body{
+    position: static;
+}
+
+/* h1{
+/*     position:relative;
+    top: 170px;
+    left: 150px;
+    z-index: 1; 
+}
+ */
+
+.cuadro{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+/*     display: inline-block; */
+}
+
+.div1{
+    background-color: aqua;
+    position: fixed;
+}
+
+.div2{
+    background-color: purple;
+    /* position: fixed; */
+    position: sticky;
+    top: 100px;
+    
+/*     left: 100px;*/
+} 
+
+.div3{
+    background-color: orangered;
+}
+
+.padre{
+    width: 500px;
+    height: 400px;
+    position:relative;
+    border: 1px solid black;
+}
