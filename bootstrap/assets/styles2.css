@@ -1,0 +1,17 @@
+
+/*-------- Navbar -------*/
+.img-logo{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/*-------- Carrusel -------*/
+
+.img-carrusel{
+    height: 90vh;
+    object-fit: cover;
+    object-position: center;
+
+}
