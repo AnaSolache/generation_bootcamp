@@ -38,5 +38,5 @@ const $ol = document.createElement('ol');
 $cuadro.appendChild($ol);
 
 continentes.forEach(continente => {
-    $ol.innterHTML =´<li></li>´
+    $ol.innterHTML =`<li></li>`
 });
