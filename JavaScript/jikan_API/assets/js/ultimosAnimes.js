@@ -6,8 +6,10 @@ fetch(urlUltimos)
 	.then((datos) => {
 		const arregloAnimesUltimos = datos.data.slice(0, 16);
 		// console.log(arregloAnimesUltimos);
+
 		arregloAnimesUltimos.map((anime) => {
 			/* Datos de la api */
+			
 			const datosNecesarios = {
 				nombre: anime.title,
 				imagen: anime.images.jpg.image_url,
@@ -15,15 +17,17 @@ fetch(urlUltimos)
 				sinopsis: anime.synopsis,
 			};
 			const template = `
-				<div class="col mb-4">
-					<div class="card">
-					<img src="${datosNecesarios.imagen}" class="card-img-top" alt="..." />
-					<div class="card-body">
-						<h5 class="card-title">${datosNecesarios.nombre}</h5>
-					</div>
-					</div>
-				</div>
-				`;
+							<div class="col mb-4">
+								<a href="informacion.html?id=${datosNecesarios.id}">
+									<div class="card">
+									<img src="${datosNecesarios.imagen}" class="card-img-top" alt="..." />
+									<div class="card-body">
+										<h5 class="card-title">${datosNecesarios.nombre}</h5>
+									</div>
+									</div>
+								</a>
+							</div>
+							`;
 			$ultimosAnimes.innerHTML += template;
 		});
 	});
