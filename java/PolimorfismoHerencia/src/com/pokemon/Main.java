@@ -4,12 +4,15 @@ public class Main {
 
 	public static void main(String[] args) {
 		//
-		Pokemon chikorita = new Pokemon (152,1,20,"Chikorita",false);
+		//Pokemon chikorita = new Pokemon (152,1,20,"Chikorita",false);
 		
-		//Utilizando metodos de instancia
-		chikorita.atacar();
-		chikorita.comer();
-		chikorita.dormir();
+		//Utilizando metodos de instanciar 
+		//chikorita.atacar();
+		//chikorita.comer();
+		//chikorita.dormir();
+		
+		//no se puede instanciar de una clase abstracta ni de una interfaz
+		//pero se puede implementar en otra clase
 		
 		TipoPlanta chikorita2 = new TipoPlanta(152,1,20,"Chikorita2",false,1);
 		
@@ -22,6 +25,16 @@ public class Main {
 		chikorita3.comer();
 		chikorita3.envenenar();
 		chikorita3.atacar();
+	
+		Charmander charmander = new Charmander(152,1,20,"Chikorita2",false);
+	
+		charmander.comer();
+		charmander.atacar();
+		
+		charmander.volar();
+		charmander.lanzallamas();
+		
+		
 	}
 
 }
